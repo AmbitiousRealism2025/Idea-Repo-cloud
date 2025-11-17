@@ -18,9 +18,9 @@ Developers who:
 
 ## Orchestration Strategy
 
-### Phase 1: Deploy Five Specialized Sub-Agents
+### Sequential Research Approach
 
-Create five parallel research agents, each focused on a distinct domain:
+Execute five research phases sequentially, each focused on a distinct domain:
 
 #### Agent 1: Learning & Skill Progression Tools
 **Focus Area**: Educational tools, learning paths, skill assessment, progressive complexity
@@ -62,9 +62,9 @@ Create five parallel research agents, each focused on a distinct domain:
 - How can tools help vibe coders understand, modify, and learn from AI-generated code?
 - What's missing in AI-first development workflows for this audience?
 
-### Phase 2: Sub-Agent Research Protocol
+### Research Protocol
 
-Each agent should:
+Each phase should:
 
 1. **Deep Research Methodology**:
    - Balance web search with targeted sources (dev forums, Product Hunt, GitHub, Reddit, Discord communities, etc.)
@@ -73,7 +73,7 @@ Each agent should:
    - Optionally validate against: existing competitors, user pain points, community feedback
 
 2. **Deliverable Format**:
-   - Generate **10 ranked app ideas** (1 = highest viability)
+   - Generate **5 ranked app ideas** (1 = highest viability)
    - For each idea provide:
      - **App Name**: Creative but descriptive
      - **Description**: Brief but complete (2-4 sentences max; prioritize clarity over brevity)
@@ -83,13 +83,13 @@ Each agent should:
      - **Tech Stack Fit**: Note if particularly suited to TypeScript/React/Convex or requires different approach
      - **Viability Reasoning**: Why ranked at this position
 
-3. **Research Validation** (Agent's Discretion):
-   - Each agent may choose whether to validate ideas against existing tools, competitors, or user communities
-   - Agents should note their validation approach in their final report
+3. **Research Validation**:
+   - Each phase may include validation against existing tools, competitors, or user communities as appropriate
+   - Validation approach should be noted in the research output
 
-### Phase 3: Orchestrator Synthesis
+### Final Phase: Synthesis
 
-After all five agents complete their research:
+After all five research phases complete:
 
 1. **Individual Agent Reports**:
    - Create separate Markdown files for each agent:
@@ -128,7 +128,7 @@ After all five agents complete their research:
 
 ## Success Criteria
 
-- **50 total ideas** (10 per agent) with comprehensive details
+- **25 total ideas** (5 per research phase) with comprehensive details
 - **Deep research** evidencing thorough investigation of each domain
 - **Ranked by viability** with clear reasoning for rankings
 - **Overlap identification** showing market validation through convergence
@@ -137,12 +137,12 @@ After all five agents complete their research:
 
 ## Execution Instructions
 
-1. Launch five sub-agents in parallel using the Task tool
-2. Each agent should use `subagent_type: "general-purpose"` with deep research capability
-3. Agents should use web search, web fetch, and any other research tools available
-4. Upon completion, synthesize all outputs into the document structure specified above
+1. Execute five research phases sequentially, one domain at a time
+2. For each phase, conduct deep research using web search, web fetch, and other research tools
+3. After completing research for each phase, create the corresponding markdown document
+4. After all five phases complete, synthesize all outputs into the final analysis document
 5. Save all outputs to the current working directory with clear naming conventions
 
 ---
 
-**Orchestrator: Begin by launching all five specialized research agents in parallel. Provide each agent with their specific focus area and research questions. Coordinate their research completion and then execute the synthesis phase.**
+**Orchestrator: Begin by executing the first research phase (Learning & Skill Progression Tools). Complete the research, create the document, then proceed sequentially through phases 2-5. Finally, execute the synthesis phase.**
