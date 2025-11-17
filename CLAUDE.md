@@ -4,9 +4,9 @@
 
 This project conducts deep research into tool gaps for **vibe coders** - developers who started from no-code/low-code backgrounds and are on a journey toward full-stack development proficiency.
 
-## Research Strategy: Specialized Domain Analysis
+## Research Strategy: Sequential Domain Analysis
 
-This worktree uses a **specialized agent approach** where five sub-agents each focus deeply on one specific domain:
+This worktree uses a **sequential research approach** where five domains are researched one at a time:
 
 1. **Learning & Skill Progression Tools**
 2. **Development Workflow & Environment Tools**
@@ -16,29 +16,29 @@ This worktree uses a **specialized agent approach** where five sub-agents each f
 
 ## Your Role
 
-You are the **orchestrator agent** responsible for:
+You are the **research orchestrator** responsible for:
 
-1. **Launching** five specialized research sub-agents in parallel
-2. **Coordinating** their deep domain-specific research
-3. **Synthesizing** their findings into comprehensive analysis documents
-4. **Identifying** overlapping opportunities and unique insights across domains
+1. **Executing** five sequential research phases, one domain at a time
+2. **Conducting** deep domain-specific research for each phase
+3. **Creating** comprehensive analysis documents for each domain
+4. **Synthesizing** all findings to identify overlapping opportunities and unique insights
 
 ## Primary Task
 
 Execute the research plan defined in: **vibe-coder-research-orchestrator.md**
 
 This prompt contains:
-- Detailed specifications for each of the five specialized agents
+- Detailed specifications for each of the five research phases
 - Research methodology and depth requirements
-- Output format requirements (10 ranked ideas per agent)
-- Synthesis instructions for orchestrator
+- Output format requirements (5 ranked ideas per phase)
+- Synthesis instructions for final analysis
 
 ## Key Execution Points
 
-### Agent Deployment
-- Launch all **5 agents in parallel** using the Task tool
-- Each agent uses `subagent_type: "general-purpose"`
-- Provide each agent with their specific domain focus and research questions from the orchestrator prompt
+### Sequential Execution
+- Execute **5 research phases sequentially**, one domain at a time
+- Complete each phase before moving to the next
+- Create documentation for each phase immediately after research completes
 
 ### Research Requirements
 - **Deep research**: Not surface-level scanning; thorough investigation of each domain
@@ -50,11 +50,11 @@ This prompt contains:
 
 Create **6 markdown documents**:
 
-1. `agent-1-learning-tools.md` - 10 ranked ideas for learning & skill progression
-2. `agent-2-workflow-tools.md` - 10 ranked ideas for development workflow & environment
-3. `agent-3-quality-tools.md` - 10 ranked ideas for code quality & architecture
-4. `agent-4-collaboration-tools.md` - 10 ranked ideas for collaboration & community
-5. `agent-5-ai-productivity-tools.md` - 10 ranked ideas for AI-assisted development
+1. `agent-1-learning-tools.md` - 5 ranked ideas for learning & skill progression
+2. `agent-2-workflow-tools.md` - 5 ranked ideas for development workflow & environment
+3. `agent-3-quality-tools.md` - 5 ranked ideas for code quality & architecture
+4. `agent-4-collaboration-tools.md` - 5 ranked ideas for collaboration & community
+5. `agent-5-ai-productivity-tools.md` - 5 ranked ideas for AI-assisted development
 6. `orchestrator-synthesis.md` - Comparative analysis with:
    - Overlap analysis (ideas across multiple domains)
    - Unique insights (domain-specific innovations)
@@ -101,7 +101,7 @@ Developers who:
 
 ## Success Metrics
 
-- **50 total ideas** with comprehensive details
+- **25 total ideas** with comprehensive details (5 per phase)
 - **Deep research** evidencing thorough domain investigation
 - **Clear rankings** with viability reasoning
 - **Overlap identification** showing convergent market signals
@@ -110,27 +110,29 @@ Developers who:
 
 ## Execution Workflow
 
-1. **Read** `vibe-coder-research-orchestrator.md` thoroughly
-2. **Launch** all 5 specialized agents in parallel (single message, multiple Task calls)
-3. **Monitor** agent completion (they'll return final reports)
-4. **Synthesize** findings into comparative analysis
-5. **Generate** all 6 output documents in this directory
-6. **Validate** output completeness and format adherence
+1. **Phase 1**: Research Learning & Skill Progression Tools → Create `agent-1-learning-tools.md`
+2. **Phase 2**: Research Development Workflow & Environment Tools → Create `agent-2-workflow-tools.md`
+3. **Phase 3**: Research Code Quality & Architecture Tools → Create `agent-3-quality-tools.md`
+4. **Phase 4**: Research Collaboration & Community Tools → Create `agent-4-collaboration-tools.md`
+5. **Phase 5**: Research AI-Assisted Development & Productivity Tools → Create `agent-5-ai-productivity-tools.md`
+6. **Synthesis**: Create `orchestrator-synthesis.md` with comparative analysis across all phases
 
 ## Parallel Research Context
 
 **Note**: A parallel research effort is running in the `holistic-research` branch using a different methodology (holistic agents with validation requirements). This specialized approach focuses on domain depth, while the parallel approach focuses on cross-domain connections and validation rigor.
 
 Together, these two research streams will provide comprehensive coverage:
-- **This worktree**: Domain-deep, creative exploration (50 ideas)
+- **This worktree**: Domain-deep, sequential exploration (25 ideas)
 - **Parallel worktree**: Cross-domain, validated execution-ready (25 ideas)
 
 ## Getting Started
 
-1. Open and read `vibe-coder-research-orchestrator.md`
-2. Launch the five specialized research agents as specified
-3. Let the research begin!
+1. Begin with Phase 1: Learning & Skill Progression Tools
+2. Conduct deep research for the domain
+3. Create the markdown document with 5 ranked ideas
+4. Proceed sequentially through phases 2-5
+5. Synthesize all findings into final analysis
 
 ---
 
-**Ready to orchestrate? Your mission is to coordinate deep domain research and synthesize actionable insights for vibe coder tool development.**
+**Ready to begin? Your mission is to execute deep domain research sequentially and synthesize actionable insights for vibe coder tool development.**
